@@ -1,0 +1,16 @@
+.navbar-custom {
+  background-color: #033f63 !important;
+  height: 56px; /* altura fija del navbar */
+}
+
+.logo-navbar {
+  height: 120px; /* más alto que el navbar */
+  width: auto;
+  object-fit: contain;
+  margin-top: -12px;  /* sube el logo */
+  margin-bottom: -12px; /* baja el logo */
+}
+
+img {
+    max-width: 100%;
+  }
