@@ -27,6 +27,7 @@ section {
 
 .carousel {
     display: block;
+    margin-left: 80px;
     text-align: left;
     position: relative;
     margin-bottom: 22px;
@@ -137,4 +138,58 @@ section {
         height: 100%;
         object-fit: cover;
     }
+}
+/*AREA DE DESCRIPCIÓN DEL DESTINO*/
+
+.info-destino {
+  max-width: 900px;   /* ancho máximo del bloque */
+  margin: 30px auto;  /* centrado en la página */
+  padding: 20px;
+  background-color: #f9f9f9; /* fondo claro */
+  border-radius: 10px;       /* esquinas redondeadas */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* sombra ligera */
+}
+
+.info-destino h2 {
+  font-size: 2rem;
+  color: #033f63;   /* color azul del navbar */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.info-destino h4 {
+  margin-top: 20px;
+  color: #000000;
+}
+
+.detalles-destino {
+  list-style: none; /* sin viñetas */
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.detalles-destino li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.detalles-destino strong {
+  color: #000;
+}
+
+.info-destino p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.mapa-google {
+  width: 100%;           /* contenedor ocupa todo el ancho disponible */
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  margin-top: 20px;       /* espacio opcional desde arriba */
+}
+
+.mapa-google iframe {
+  max-width: 100%;       /* responsive: no se salga de la pantalla */
+  height: 500px;
 }
